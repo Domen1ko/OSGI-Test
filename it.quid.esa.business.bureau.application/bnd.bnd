@@ -1,0 +1,25 @@
+#
+#  APPLICATION
+#
+
+Bundle-Version: 1.0.0.${tstamp}
+Bundle-Description: Application with front end for allow bureau call
+
+Private-Package:  \
+	it.quid.esa.business.bureau.application
+
+EnRoute-Application: 	it.quid.esa.business.bureau
+JPM-Command:			bureau
+
+-includeresource: \
+	{readme.md}, \
+	{configuration=configuration}, \
+	{static=static}, \
+	web=web
+
+-buildpath: \
+	osgi.enroute.base.api,\
+	it.quid.esa.integration.bureau.anagrafe.api;version=1.0
+	
+-testpath: \
+	osgi.enroute.junit.wrapper;version=4.12

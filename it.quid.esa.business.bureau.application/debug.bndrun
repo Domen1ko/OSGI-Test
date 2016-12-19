@@ -1,0 +1,12 @@
+#
+# BUREAU APPLICATION DEBUG RUN SPECIFICATION
+#
+
+-include: ~it.quid.esa.business.bureau.bndrun
+
+-runrequires.debug:  ${debug-bundles}
+
+-runtrace: true
+
+-runbundles: \
+	${error;Resolve first}
