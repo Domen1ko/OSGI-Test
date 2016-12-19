@@ -28,7 +28,7 @@ public class BureauApplication implements REST {
 		InputModel input = new InputModel();
 		input.setNdg(string);
 		OutputModel output = anagrafe.call(input);
-		return "Result: "+output.getOutcome()+" Data: "+output.getPayLoad()+" @ version:"+output.getVersion();
+		return "Result: "+output.getOutcome()+" Data: "+output.getPayLoad()+"  @version:"+output.getVersion();
 	}
 
 }
