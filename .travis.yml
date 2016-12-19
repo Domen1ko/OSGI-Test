@@ -2,9 +2,13 @@ sudo: false
 
 language: java
 
+before_install: - chmod +x gradlew
+
 jdk:
   - oraclejdk8
 
 install: ./gradlew --version
 
 script: ./gradlew --continue
+
+before_install: - chmod +x gradlew
