@@ -11,9 +11,9 @@ In release we have 2 bundle of Anagrafe Api, the running one is anagrafe.adapter
 <h2>HOW TO</h2>
     1) Go into "it.quid.esa.business.bureau.application" and click on it.quid.esa.business.bureau.bndrun and click <resolve>
     2) Now click on Run OSGi
-    3) On browser : [Index][4].
+    3) On browser : http://localhost:8080/it.quid.esa.business.bureau/index.html#.
     4) Click on Try It! and see "@ version" number
-    5) Go in xray console: [Bundle Console][5].
+    5) Go in xray console: http://localhost:8080/system/console/bundles.
     6) Now click on Install/update button and search it.quid.esa.integration.bureau.anagrafe.adapter into Relese of your workspace version: 1.0.0 and flag "start bundle", "update"
     7) Click on reload (now the version of anagrafe.adapter should be changed) just go back and click Try It!
     8) Now version it should changed!
